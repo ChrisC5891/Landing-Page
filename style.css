@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    max-height:max-content;
     
 }
 .hero {
@@ -7,6 +8,7 @@
     color: #f9faf8;
     display: flex;
     flex-direction: column;
+    height: 500px;
 }
 .links {
     
@@ -46,55 +48,63 @@ button {
     margin-right: 350px;    
 }
 
-.cta { 
-    background-color: #ffffff;
-    color: #030700;
-    display:flex;
-    height: 50vh;
-    border: 8px solid rgb(150, 49, 160);
-    align-items: center;
-    box-sizing: border-box;
-    justify-content: flex-start;
+/* Mid section with four pics+descriptions*/
+.row {
+   display:flex;
+   justify-content: center;
+   text-align: center;
+   justify-items: center;
+   width: 1400px;
+   border: 6px solid blueviolet;
+   margin-left: 300px;
+   margin-right: 300px;
+
    
-    
-    
-}
-.box {
-    width: 150px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    margin: 160px;
-    align-content: center;
-    
+   }
+
+.column {
+    width: 33.33%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
 }
 
+img {
+    width:300px;
+
+}
+
+
+/*Some random information*/
 h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
-    
+    font-size: 36px;
 }
 
-
-}
-/*.cta-text {
+/*Quote Section*/
+.quote {
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
     display: flex;
-    margin-bottom: 40px;
-    align-items: space-evenly;
-    align-content: flex-end;
-    border: 7px solid green;
-    
 }
-/*.box {
-    display: flex;
-    border: 6px solid blue;
-    
-    
+.text {
+    width: 800px;
+    border: 6px solid black;
+    font-size: 36px;
+    font-weight:lighter;
+    color: rgb(110, 107, 107);
 }
-/*.img2 {
+.thor {
+    font-weight: bolder;
+    text-align: end;
+    color: black;
+    font-size: 25px;
+}
 
-    height: 100px;
-    width: 100px;
-    border: 6px solid orange;
-    } 
+    
+    
+
+
