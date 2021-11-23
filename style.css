@@ -105,6 +105,39 @@ h2 {
 }
 
     
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+
     
+}   
 
+.time {
+    
+    width: 1000px;
+    height: 150px;
+    background-color: #3882f6;
+   
+}
 
+.call {
+    text-align:left;
+    color: #E5E7EB;
+    padding-top: 15px;
+    padding-left: 50px;
+    font-size:24px;
+}
+.action{
+    text-align:left;
+    color: #E5E7EB;
+    padding-left: 50px;
+    font-size: 17px;
+}    
+#sign {
+    margin-left: 200px;
+    width: 100px;
+    border: 1px solid white;
+    
+}
