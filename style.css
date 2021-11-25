@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
     max-height:max-content;
-    
 }
+
 .hero {
     background-color: #1F2937;
     color: #f9faf8;
@@ -10,21 +10,30 @@
     flex-direction: column;
     height: 500px;
 }
+
 .links {
     
     display: flex;
     padding-right: 30px;
     gap: 30px;
-    
 }
+
 .title {
     display:flex;
     border: 8px solid olive;
     margin-left: 200px;
     justify-content: space-between;
     flex-direction: row-reverse;
-
+    font-size: 30px;
 }
+.secondary {
+    font-size: 18px;
+}
+
+.button1 {
+    margin: 0;
+}
+
 .logo-links{
     display:flex;
     align-self: stretch;
@@ -35,6 +44,7 @@
     margin-bottom: 100px;
     width: 1500px;
 }
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -42,10 +52,11 @@ button {
     padding: 6px;
     width: 85px;
 }
+
 .img1 {
-    width: auto;
-    height: auto;
-    margin-right: 350px;    
+    height: 300px;
+    margin-right: 350px;  
+    display: flex;  
 }
 
 /* Mid section with four pics+descriptions*/
@@ -58,19 +69,18 @@ button {
    border: 6px solid blueviolet;
    margin-left: 300px;
    margin-right: 300px;
-
-   
-   }
+}
 
 .column {
     width: 33.33%;
     background-color: rgb(255, 255, 255);
-    height: 500px;
+    height: 400px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 img {
     width:300px;
-
 }
 
 
@@ -90,6 +100,7 @@ h2 {
     height: 350px;
     display: flex;
 }
+
 .text {
     width: 800px;
     border: 6px solid black;
@@ -97,6 +108,7 @@ h2 {
     font-weight:lighter;
     color: rgb(110, 107, 107);
 }
+
 .thor {
     font-weight: bolder;
     text-align: end;
@@ -119,6 +131,7 @@ h2 {
     width: 1000px;
     height: 150px;
     background-color: #3882f6;
+    border-radius: 7px;
    
 }
 
@@ -139,5 +152,13 @@ h2 {
     margin-left: 200px;
     width: 100px;
     border: 1px solid white;
+    
+}
+button {
+
+    margin-left: 200px;
+    width: 120px;
+    border-radius: 6px;   
+    cursor: pointer; 
     
 }
